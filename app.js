@@ -6,4 +6,8 @@ app.get("/",(req,res)=>{
     res.send("probando  ")
 })
 
+app.get("/otra",(req,res)=>{
+    res.send("probando otra ")
+})
+
 app.listen(PORT,()=>console.log('escuchando en:',PORT))
